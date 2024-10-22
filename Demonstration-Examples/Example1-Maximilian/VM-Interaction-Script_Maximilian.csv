@@ -1,0 +1,60 @@
+2024-05-31T07:10:25+02:00,start_computer
+2024-05-31T07:10:25+02:00,login_single_user,12345678
+2024-05-31T07:15:40+02:00,firefox_simple_initial_google_search_session,current financial news
+2024-05-31T07:18:55+02:00,firefox_simple_followup_google_search_session,tax law updates Germany 2024
+2024-05-31T07:23:25+02:00,firefox_open_new_tab_and_search,global stock market trends
+2024-05-31T07:27:10+02:00,firefox_open_new_tab_and_search,how to reduce tax liability Germany
+2024-05-31T07:31:45+02:00,firefox_open_new_tab_and_search,financial planning tips 2024
+2024-05-31T07:37:30+02:00,shutdown_via_menu
+2024-05-31T16:20:30+02:00,start_computer
+2024-05-31T16:20:30+02:00,login_single_user,12345678
+2024-05-31T16:25:10+02:00,firefox_simple_initial_google_search_session,photography competitions Berlin 2024
+2024-05-31T16:29:50+02:00,firefox_open_new_tab_and_search,local photography exhibitions
+2024-05-31T16:35:25+02:00,firefox_simple_followup_google_search_session,how to prepare for a photo competition
+2024-05-31T16:42:10+02:00,firefox_simple_followup_google_search_session,best DSLR settings for competition
+2024-05-31T16:48:55+02:00,firefox_open_new_tab_and_search,tips for winning photo contests
+2024-05-31T16:53:30+02:00,shutdown_via_menu
+2024-05-31T20:45:10+02:00,start_computer
+2024-05-31T20:45:10+02:00,login_single_user,12345678
+2024-05-31T20:50:45+02:00,firefox_simple_initial_google_search_session,best restaurants in Berlin 2024
+2024-05-31T20:54:25+02:00,firefox_simple_followup_google_search_session,new fusion cuisine Berlin
+2024-05-31T20:58:10+02:00,firefox_open_new_tab_and_search,dinner recipes
+2024-05-31T21:02:30+02:00,shutdown_via_menu
+2024-06-01T09:05:50+02:00,start_computer
+2024-06-01T09:05:50+02:00,login_single_user,12345678
+2024-06-01T09:10:15+02:00,firefox_simple_initial_google_search_session,weekend brunch ideas
+2024-06-01T09:14:45+02:00,firefox_simple_followup_google_search_session,how to make omelettes
+2024-06-01T09:18:30+02:00,shutdown_via_menu
+2024-06-01T12:30:20+02:00,start_computer
+2024-06-01T12:30:20+02:00,login_single_user,12345678
+2024-06-01T12:34:50+02:00,firefox_simple_initial_google_search_session,Berlin outdoor activities June 2024
+2024-06-01T12:39:25+02:00,firefox_simple_followup_google_search_session,best parks in Berlin
+2024-06-01T12:43:10+02:00,firefox_simple_followup_google_search_session,cycling routes near me
+2024-06-01T12:47:30+02:00,firefox_open_new_tab_and_search,how to plan a cycling trip
+2024-06-01T12:52:45+02:00,firefox_open_new_tab_and_search,best cycling apps 2024
+2024-06-01T12:57:05+02:00,shutdown_via_menu
+2024-06-01T19:15:45+02:00,start_computer
+2024-06-01T19:15:45+02:00,login_single_user,12345678
+2024-06-01T19:20:10+02:00,firefox_simple_initial_google_search_session,editing night photos
+2024-06-01T19:25:05+02:00,firefox_open_new_tab_and_search,how to reduce noise in photos
+2024-06-01T19:28:50+02:00,firefox_simple_followup_google_search_session,best low light photography tips
+2024-06-01T19:32:40+02:00,shutdown_via_menu
+2024-06-02T08:40:20+02:00,start_computer
+2024-06-02T08:40:20+02:00,login_single_user,12345678
+2024-06-02T08:45:15+02:00,firefox_simple_initial_google_search_session,Sunday breakfast recipes
+2024-06-02T08:49:30+02:00,firefox_open_new_tab_and_search,how to make French toast
+2024-06-02T08:53:50+02:00,shutdown_via_menu
+2024-06-02T13:10:15+02:00,start_computer
+2024-06-02T13:10:15+02:00,login_single_user,12345678
+2024-06-02T13:15:50+02:00,firefox_simple_initial_google_search_session,Berlin cultural events June 2024
+2024-06-02T13:19:30+02:00,firefox_simple_followup_google_search_session,best museums in Berlin
+2024-06-02T13:23:45+02:00,firefox_simple_followup_google_search_session,current exhibitions Berlin
+2024-06-02T13:28:05+02:00,firefox_simple_followup_google_search_session,free events in Berlin this weekend
+2024-06-02T13:33:50+02:00,shutdown_via_menu
+2024-06-02T17:45:25+02:00,start_computer
+2024-06-02T17:45:25+02:00,login_single_user,12345678
+2024-06-02T17:50:10+02:00,firefox_simple_initial_google_search_session,best photo editing techniques
+2024-06-02T17:55:30+02:00,firefox_open_new_tab_and_search,Lightroom tutorials
+2024-06-02T18:00:05+02:00,firefox_simple_followup_google_search_session,how to use Photoshop layers
+2024-06-02T18:05:40+02:00,firefox_simple_followup_google_search_session,editing portraits tips
+2024-06-02T18:10:50+02:00,shutdown_via_menu
