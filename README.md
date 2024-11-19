@@ -42,3 +42,7 @@ In this directory, we provide intermediate and final results of the disk image g
 ## Re-imagen - Research Code
 
 In this directory, we provide the prototype implementation of Re-imagen created to demonstrate our approach as well as some enhancements to [pyautoqemu](https://wiwi-gitlab.uni-muenster.de/itsecurity/pyautoqemu), the VM control automation tool used in our demonstration.
+
+---
+
+We'd like to thank Katharina de Rentiis for implementing the OCR functionality for pyautoqemu!
