@@ -2,11 +2,14 @@
 
 This is the repository for the *Re-imagen* framework for generating coherent background activity in synthetic disk images, that was presented at [DFRWS APAC 2024](https://dfrws.org/conferences/dfrws-apac-2024/).
 
-In this repository, we provide intermediate and final results of the disk image generation process for two examples described in our [paper](https://dfrws.org/wp-content/uploads/2024/10/Re-imagen-Generating-Coherent-Background-Activity-in-Synthetic-Scenario-Based-Forensic-Datasets-Using-Large-Language-Models.pdf).
+We provide intermediate and final results of the disk image generation process for two examples described in our [paper](https://dfrws.org/wp-content/uploads/2024/10/Re-imagen-Generating-Coherent-Background-Activity-in-Synthetic-Scenario-Based-Forensic-Datasets-Using-Large-Language-Models.pdf).
 
-The code for our prototype implementation of core components of the Re-imagen framework will be added soon ... 
+Also, this repository contains research code for the prototype implementation of core components of the Re-imagen framework, as introduced in our paper.
 
 ## Demonstration - Examples
+
+In this directory, we provide intermediate and final results of the disk image generation process for two examples we introduced to demonstrate our approach. Full disk images for both examples will be shared upon request.
+
 
 ### Example 1 - Maximilian
 
@@ -36,3 +39,6 @@ The code for our prototype implementation of core components of the Re-imagen fr
 - Examples of relevant files for observing activity related to the GPT-4o output: Mozilla Firefox places.sqlite, Users/Catherine/Documents/workshop_outline.txt, Users/Catherine/Documents/recipe_notes.txt
 
 
+## Re-imagen - Research Code
+
+In this directory, we provide the prototype implementation of Re-imagen created to demonstrate our approach as well as some enhancements to [pyautoqemu](https://wiwi-gitlab.uni-muenster.de/itsecurity/pyautoqemu), the VM control automation tool used in our demonstration.
