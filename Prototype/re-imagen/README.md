@@ -43,5 +43,5 @@ tbd.
 
 This code we provide is research code for a prototype and we acknowledge that there is potential for improvement. To give some examples:
 
-- Integration with a VM control automation tool (e.g. [ForTrace++](https://gitlab.com/DW0lf/fortrace) that is actively maintained and, e.g., provides more functionality to check whether actions were successful/lead to the expected result, to avoid hardcoded sleep times, or to handle unexpected results (e.g., popups). 
+- Integration with a VM control automation tool (e.g. [ForTrace++](https://gitlab.com/DW0lf/fortrace)) that is actively maintained and, e.g., provides more functionality to check whether actions were successful/lead to the expected result, to avoid hardcoded sleep times, or to handle unexpected results (e.g., popups). 
 - Support of further activities and system types
