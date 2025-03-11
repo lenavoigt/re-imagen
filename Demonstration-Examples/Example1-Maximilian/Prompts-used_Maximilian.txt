@@ -8,7 +8,7 @@ Create a schedule for Maximilian's activities on May 31, 2024. For the usage of 
 
 Prompt (Activity Description Script - Initial)
 
-Based on this overall time schedule your job is to create an activity description of when Maximilian turns his computer on and off on May 24, 2024. Please provide the activities with realistic times that are not restricted to full hours, half hours, or five-minute steps, including minutes and seconds. Give concrete times, when the computer is turned on and off. Only include the times for turning the computer on and off in the schedule. Use the property name "computer_on" for turning the computer on and "computer_off" for turning it off. Dates are in ISO 8601 format. For example, 2023-09-15T07:33:00+02:00 is September 15th, 2023, at 07:03 AM in the time zone UTC+2. Here is an example JSON output:
+Based on this overall time schedule your job is to create an activity description of when Maximilian turns his computer on and off on May 31, 2024. Please provide the activities with realistic times that are not restricted to full hours, half hours, or five-minute steps, including minutes and seconds. Give concrete times, when the computer is turned on and off. Only include the times for turning the computer on and off in the schedule. Use the property name "computer_on" for turning the computer on and "computer_off" for turning it off. Dates are in ISO 8601 format. For example, 2023-09-15T07:33:00+02:00 is September 15th, 2023, at 07:03 AM in the time zone UTC+2. Here is an example JSON output:
 [
 {"time" : "2023-09-15T07:33:17+02:00" , "activity" : "computer_on"},
 {"time" : "2023-09-15T07:53:32+02:00" , "activity" : "computer_off"},
