@@ -53,9 +53,9 @@ Prepare the system for the simulation:
 ## Required Files
 
 To be able to run the Re-imagen translator module:
-- Activity Description Script ([Example](https://github.com/lenavoigt/re-imagen/blob/main/Demonstration-Examples/Example1-Maximilian/Activity-Description-Script_Maximilian.json))
+- Activity Description Script, final output of the LLM interaction ([Example](https://github.com/lenavoigt/re-imagen/blob/main/Demonstration-Examples/Example1-Maximilian/Activity-Description-Script_Maximilian.json))
 
-To be able tu run the Re-imagen VM instruction module:
+To be able to run the Re-imagen VM instruction module:
 - VM Interaction Script as it is output by the Translator module ([Example](https://github.com/lenavoigt/re-imagen/blob/main/Demonstration-Examples/Example1-Maximilian/VM-Interaction-Script_Maximilian.csv))
 - Disk of a VM prepared in advance, see above (windows10.qcow2)
 - [Templates](https://github.com/lenavoigt/re-imagen/tree/main/Prototype/re-imagen/shared/templates) for GUI interaction using pyautoqemu, prepared in advance (see below)
