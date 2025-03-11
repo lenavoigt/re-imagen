@@ -8,8 +8,7 @@ Also, this repository contains research code for the prototype implementation of
 
 ## Demonstration - Examples
 
-In this directory, we provide intermediate and final results of the disk image generation process for two examples we introduced to demonstrate our approach. Full disk images for both examples will be shared upon request.
-
+In the [Demonstration-Examples](https://github.com/lenavoigt/re-imagen/tree/main/Demonstration-Examples) directory, we provide intermediate and final results of the disk image generation process for two examples we introduced to demonstrate our approach. Full disk images for both examples will be shared upon request.
 
 ### Example 1 - Maximilian
 
@@ -41,7 +40,7 @@ In this directory, we provide intermediate and final results of the disk image g
 
 ## Re-imagen - Research Code
 
-In this directory, we provide the prototype implementation of Re-imagen created to demonstrate our approach as well as some enhancements to [pyautoqemu](https://wiwi-gitlab.uni-muenster.de/itsecurity/pyautoqemu), the VM control automation tool used in our demonstration.
+In the [Prototype](https://github.com/lenavoigt/re-imagen/tree/main/Prototype) directory, we provide the prototype implementation of [Re-imagen](https://github.com/lenavoigt/re-imagen/tree/main/Prototype/re-imagen) created to demonstrate our approach as well as some enhancements to [pyautoqemu](https://wiwi-gitlab.uni-muenster.de/itsecurity/pyautoqemu), the VM control automation tool used in our demonstration.
 
 ---
 
