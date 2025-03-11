@@ -1,0 +1,29 @@
+Prompt (Persona):
+
+Maximilian is a 32-year-old accountant based in Berlin, Germany. His native language is English and he owns a Windows 10 computer that he only uses at home for personal matters. Create a brief persona for him. A persona should include the following attributes: Full Name, Gender, Age, Location, Language, Occupation, Interests and Hobbies, Education, Online Behavior, Information Needs, IT Proficiency, Devices, Unique Attributes, and a Summary.  Please be creative in creating the characteristics.
+
+Prompt (Schedule of the day):
+
+Create a schedule for Maximilian's activities on May 24, 2024. For the usage of his computer, only include a rough description of what she does without extra timestamps. Please provide the activities with realistic times that are not restricted to full hours, half hours, or five-minute steps, including minutes and seconds. Times should be given in a 24-hour time format. Don't include options, possibilities, or placeholders. 
+
+Prompt (Activity Description Script - Initial)
+
+Based on this overall time schedule your job is to create an activity description of when Maximilian turns his computer on and off on May 24, 2024. Please provide the activities with realistic times that are not restricted to full hours, half hours, or five-minute steps, including minutes and seconds. Give concrete times, when the computer is turned on and off. Only include the times for turning the computer on and off in the schedule. Use the property name "computer_on" for turning the computer on and "computer_off" for turning it off. Dates are in ISO 8601 format. For example, 2023-09-15T07:33:00+02:00 is September 15th, 2023, at 07:03 AM in the time zone UTC+2. Here is an example JSON output:
+[
+{"time" : "2023-09-15T07:33:17+02:00" , "activity" : "computer_on"},
+{"time" : "2023-09-15T07:53:32+02:00" , "activity" : "computer_off"},
+{"time" : "2023-09-15T18:42:45+02:00" , "activity" : "computer_on"},
+{"time" : "2023-09-15T19:16:12+02:00" , "activity" : "computer_off"}
+]
+
+Prompt (Activity Description Script - Adding Google searches):
+
+That looks good! Now please also add web browsing activities: Add extensive Google search activities considering the persona. It is very important that the searches match the previously generated schedule. Besides very simple searches, you can include longer Google search sessions on a topic with several related queries over a longer period of time. Make sure to consider the language proficiency. Ensure that Google search terms are tailored to typical Google queries. That means you can include very short as well as longer search terms. When a search term is googled, use the value "google_search" for the attribute "activity". Add the attribute "search_term" with a corresponding value for the Google query. Don't include options, possibilities, placeholders, or translations. 
+
+Prompt (Activity Description Script - Longer running):
+
+That looks good! Can you do the same for the following 6 days as well? Note the different days of the week and holidays and the influence they have on the behavior of this user. Vary the following aspects: 
+1.) number of computer sessions a day, i.e., the number of times the computer turned on and off on a day (an appropriate number between zero and five times) as well as at which times it is used. 
+2.) type of search terms. Include short search terms (only one or two words) and longer search terms. 
+3.) number of search terms: It is important that, in addition to short independent Google searches, you occasionally include longer web browsing sessions with more than 5 consecutive search terms on a specific topic that are closely related and built up on each other. 
+
