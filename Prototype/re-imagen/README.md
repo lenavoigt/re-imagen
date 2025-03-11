@@ -26,7 +26,7 @@ To set up the target VMs we used for our demonstration, we proceeded as describe
 
 ```~$ qemu-img convert -O qcow2 <windows10>.vdi <windows10>.qcow2```
 
-**Start and further Preparation the VM**
+**Start and further preparation of the VM**
 
 Start the VM using qemu:
 
@@ -48,10 +48,15 @@ Start the VM using qemu:
     - *Note: We observed that the host resolution needs to be set to 2560x1440 or less when creating the screenshots. For us, a host resolution of 2560x1600, 100% Scale worked.*
 - Shutdown the VM, create a copy of the qcow2 file (to be used as a  backup of the base image for the VM)
 
-## Required files
+## Required Files
 
+To be able to run the Re-imagen translator module:
 - Activity Description Script (for examples see Demonstration Examples)
+
+To be able tu run the Re-imagen VM instruction module:
+- VM Interaction Script (output of the Translator module)
 - Disk of a VM prepared in advance, see above (windows10.qcow2)
+- Templates for GUI interaction using pyautoqemu, prepared in advance (see below)
 
 ## Templates 
 
