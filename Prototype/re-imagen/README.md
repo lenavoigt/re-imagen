@@ -4,7 +4,7 @@ For our demonstration, we used an Ubuntu 22.04 host machine with *qemu-system-x8
 
 ```~$ apt-get install qemu-system-x86```
 
-Our OCR patch for pyautoqemu has to be applied after pulling the original pyautoqemu repo (that is included in the requirements.txt).
+We set up the Re-imagen project in a Python venv. Our OCR patch for pyautoqemu has to be applied after pulling the original pyautoqemu repo (that is included in the requirements.txt).
 
 # Preparation of a Simulation Run
 
