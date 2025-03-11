@@ -8,18 +8,20 @@ We set up the Re-imagen project in a Python venv. Our OCR patch for pyautoqemu h
 
 # Preparation of a Simulation Run
 
-## Initial Configuration of the target VM
+There is some initial preparation effort required, before the interaction with the target VM can be carried out in automated manner. In the following, we describe how we prepared our [Demonstration Examples](https://github.com/lenavoigt/re-imagen/tree/main/Demonstration-Examples).
 
-To set up the target VMs we used for our demonstration, we proceeded as described in the following. It should be noted that some of the preparation was only neccessary to improve performance.
+## Initial Creation and Configuration of the target VM
 
-**Set up VM using Virtualbox**
+To set up the target VMs we used for our demonstration, we proceeded as described in the following. It should be noted that some steps of the preparation was only neccessary to improve performance.
+
+**Set up target VM using Virtualbox**
 
 - 4096 MB memory, 4 cpus
 - Windows 10 Home (64bit, Version 22H2)
     - keyboard layout: qwerty (US-international)
     - language: English (UK)
-    - Time and currency: German, 
-    - username and password matching the scenario (e.g. for Example 1: Maximilian, 12345678)
+    - Time and currency: German
+    - username and password matching the scenario (e.g. for [Example 1](https://github.com/lenavoigt/re-imagen/tree/main/Demonstration-Examples/Example1-Maximilian): "Maximilian", "12345678")
 - Disable Startup Applications and Background Applications
 
 **Convert vdi to qcow2 file**
@@ -32,15 +34,15 @@ Start the VM using qemu:
 
 ```~$ qemu-system-x86_64 -m 4G -enable-kvm -cpu host -device qemu-xhci -device usb-tablet -vga std -rtc base=localtime -qmp tcp:localhost:4444,server,nowait <windows10>.qcow2```
 
-- Preparation:
-    - Firefox:
-        - Install Firefox (Version 116.0.1)
-        - Accept Google cookies 
-        - Disable translator popup (enter ```about:config``` in the address bar and set ```browser.translations.automaticallyPopup = false```)
-        - Disable session restores (in ``about:config```: set ```browser.sessionstore.max_resumed_crashes``` to ```0```)
-    - Microsoft Store: Disable automatic updates and live tile in microsoft store
-    - Screen resolution: 1920x1080, scaling 100%
-    - Windows updates: Pause
+Prepare the system for the simulation:
+- Firefox:
+    - Install Firefox (Version 116.0.1)
+    - Accept Google cookies 
+    - Disable translator popup (enter ```about:config``` in the address bar and set ```browser.translations.automaticallyPopup = false```)
+    - Disable session restores (in ``about:config```: set ```browser.sessionstore.max_resumed_crashes``` to ```0```)
+- Microsoft Store: Disable automatic updates and live tile in microsoft store
+- Screen resolution: 1920x1080, scaling 100%
+- Windows updates: Pause
 
 **Preparation for the automation with pyautoqemu**
 
@@ -51,12 +53,12 @@ Start the VM using qemu:
 ## Required Files
 
 To be able to run the Re-imagen translator module:
-- Activity Description Script (for examples see Demonstration Examples)
+- Activity Description Script ([Example](https://github.com/lenavoigt/re-imagen/blob/main/Demonstration-Examples/Example1-Maximilian/Activity-Description-Script_Maximilian.json))
 
 To be able tu run the Re-imagen VM instruction module:
-- VM Interaction Script (output of the Translator module)
+- VM Interaction Script as it is output by the Translator module ([Example](https://github.com/lenavoigt/re-imagen/blob/main/Demonstration-Examples/Example1-Maximilian/VM-Interaction-Script_Maximilian.csv))
 - Disk of a VM prepared in advance, see above (windows10.qcow2)
-- Templates for GUI interaction using pyautoqemu, prepared in advance (see below)
+- [Templates](https://github.com/lenavoigt/re-imagen/tree/main/Prototype/re-imagen/shared/templates) for GUI interaction using pyautoqemu, prepared in advance (see below)
 
 ## Templates 
 
