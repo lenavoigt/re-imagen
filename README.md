@@ -1,8 +1,10 @@
 # Re-imagen
 
-This is the repository for the *Re-imagen* framework for generating coherent background activity in synthetic disk images, that was presented at [DFRWS APAC 2024](https://dfrws.org/conferences/dfrws-apac-2024/).
+This is the repository for the *Re-imagen* framework for generating coherent background activity in synthetic disk images, which was presented at [DFRWS APAC 2024](https://dfrws.org/conferences/dfrws-apac-2024/).
 
-We provide intermediate and final results of the disk image generation process for two examples described in our [paper](https://dfrws.org/wp-content/uploads/2024/10/Re-imagen-Generating-Coherent-Background-Activity-in-Synthetic-Scenario-Based-Forensic-Datasets-Using-Large-Language-Models.pdf).
+We provide intermediate and final results of the disk image generation process for two examples described in our [paper](https://www.sciencedirect.com/science/article/pii/S266628172400129X):
+
+> Voigt, L. L., Freiling, F., & Hargreaves, C. J. (2024). Re-imagen: Generating coherent background activity in synthetic scenario-based forensic datasets using large language models. Forensic Science International: Digital Investigation, 50, 301805.
 
 Also, this repository contains research code for the prototype implementation of core components of the Re-imagen framework, as introduced in our paper.
 
